@@ -1,0 +1,8 @@
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+spring.mail.username=your_email
+spring.mail.password=your_password
+
+twilio.account.sid=your_sid
+twilio.auth.token=your_token
