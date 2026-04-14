@@ -1,21 +1,31 @@
-# Product Management System
+🧾 Product Managemant System
+A backend-driven order management system designed for secure, scalable, and automated billing operations with real-time communication and stock tracking.
 
-## 🚀 Features
-- Add / Update / Delete Products
-- Email Notification System
-- Twilio SMS Integration
-- REST APIs
+🚀 Features
+Admin Functions
 
-## 🛠 Tech Stack
-- Java
-- Spring Boot
-- MySQL
+Add products under specific categories
+Receive SMS alerts when stock reaches threshold
+Get daily email reports of orders and stock status
+User Interactions
 
-## 🔐 Security
-- Environment Variables used for sensitive data
-- .gitignore configured
+Place orders with automatic stock update
+Receive WhatsApp notifications on order success or failure
+Paginated product listing (5 items per page)
+System Mechanics
 
-## ▶️ How to Run
-1. Clone repo
-2. Setup environment variables
-3. Run application
+Applied Atomicity to ensure reliable order placement
+Enforced Database Normalization for maintainability
+Twilio integration for WhatsApp, SMS notifications
+Spring Boot backend with secure configuration management
+🛠️ Tech Stack
+Backend: Java + Spring Boot
+Database: MySQL
+Notifications: Twilio (SMS & WhatsApp)
+Email Reports: JavaMail
+Security & Config: Environment-specific setups with @ConfigurationProperties
+📈 Highlights
+Real-world debugging with property injection logging
+Sandbox-aware WhatsApp templates via Twilio
+Clean pagination and threshold-based stock alerts
+Scalable and maintainable backend architecture
