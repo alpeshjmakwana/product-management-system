@@ -18,12 +18,14 @@ Applied Atomicity to ensure reliable order placement
 Enforced Database Normalization for maintainability
 Twilio integration for WhatsApp, SMS notifications
 Spring Boot backend with secure configuration management
+
 🛠️ Tech Stack
 Backend: Java + Spring Boot
 Database: MySQL
 Notifications: Twilio (SMS & WhatsApp)
 Email Reports: JavaMail
 Security & Config: Environment-specific setups with @ConfigurationProperties
+
 📈 Highlights
 Real-world debugging with property injection logging
 Sandbox-aware WhatsApp templates via Twilio
